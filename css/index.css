@@ -1,0 +1,75 @@
+.head{
+   height: 80px;
+}
+.logo{
+    float: left;
+    width: 90px;
+    height: 40px;
+    margin-top: 30px;
+}
+.nav{
+    float: left;
+    margin-left: 470px;
+    width: 580px;
+    height: 80px;
+}
+.nav li{
+    float: left;
+    padding: 30px 30px 0 30px;
+    border-width:5px;
+}
+
+.nav li.active{
+    border-top: #0090c5;
+    border-top-style:solid;
+}
+
+.login{
+    float: right;
+    width: 80px;
+    height: 30px;
+    margin-top: 30px;
+}
+
+.banner{
+    height: 560px;
+    background: #0088cc;
+}
+
+.banner img{
+    height: 560px;
+    width: 100%;
+    background: #0088cc;
+}
+
+.main .title{
+    margin: 0 auto;
+    width: 150px;
+    text-align: center;
+}
+.main .content{
+    width: 1000px;
+    height: 570px;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+.main .content ul{
+    overflow: hidden;
+    padding-left:10px;
+    width: 1236px;
+
+}
+
+.main .content li{
+    float: left;
+    margin-right: 250px;
+    white-space: nowrap
+}
+
+
+
+
+.main .content li p{
+    text-align: center;
+}
